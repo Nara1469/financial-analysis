@@ -1,0 +1,52 @@
+:root {
+  --white: whitesmoke;
+  --sapphire: #1e88e5;
+}
+
+body {
+  font-family: 'Arial', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Rubik Mono One', sans-serif;
+}
+
+.small {
+  font-weight: 300;
+  font-style: italic;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  cursor: pointer;
+  justify-content: flex-end;
+}
+
+.company-logo {
+  width: 100px;
+  height: 100px;
+  padding: 2%;
+}
+
+.single-ticker {
+  color: blue;
+  font-weight: bold;
+  text-align: center;
+}
+
+.delete-mark {
+  color: red;
+  font-weight: bold;
+}
+
+.add-space {
+  margin-top: 15px;
+}
